@@ -1,18 +1,49 @@
 <html>
 <head>
-<link rel = "Stylesheet" href = "Hcss.css">
-<script src="Hjs.js"></script>
-<title> HOME </title>
+<script src="Ajs.js"></script>
+<link rel = "Stylesheet" href = "Acss.css">
+<title> ABOUT ME </title>
 </head>
 <body>
-<button class="tablink" onclick="openPage('Project', this, 'red')">My Project Ideas</button>
-<button class="tablink" onclick="openPage('Am', this, 'green')">About me</button>
+<img class="background" src="desert.png" alt="desert" width="300" height="300">
+<h1> ABOUT ME </h1>
+<button class="tablink" onclick="openPage('Pd', this, 'red')" id="defaultOpen">Personal Details</button>
+<button class="tablink" onclick="openPage('Ed', this, 'green')">Eucation</button>
 
-<div id="Project" class="tabcontent">
-  <h3></h3>
-  <p>Mapping bound surface road constructed to new stations at KENGEN
+<div id="Pd" class="tabcontent">
+  <h3>Personal Details</h3>
+  <img class="background" src="desert.png" alt="desert" width="300" height="300">
+  <p>
+  Name: Charles Gori<br>
+  Student at University ofJKUAT persuing Bsc. Geospatial Information Science<br>
   
   </p>
+</div>
 
+<div id="Ed" class="tabcontent">
+  <h3>Education</h3>
+  <p>
+   Primary school:  Molo Academy 
+   
+  </p>
+</div>
+
+<div id="Hb" class="tabcontent">
+  <h3>Hobbies</h3>
+  <p>
+  <ul>
+  <li>Art</li>
+  <li>Music</li>
+  <li>Explore</li>
+  
+  </p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>
+  email: moengac84gmail.com
+  </p>
+</div>
 </body>
 </html>
